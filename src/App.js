@@ -5,6 +5,7 @@ import Drawer from './drawer';
 import Greet from './components/greet';
 import Card from './card'; 
 import Counter from './components/counter';
+import FunctionClick from './components/FunctionClick';
 
 function App() {
  
@@ -13,7 +14,7 @@ function App() {
      {/* <Drawer name="Sadekul" /> */}
     <Greet name="sadekul" age="26"/>
     {/* <Card /> */}
-
+    <FunctionClick/>
     <Counter/>
     </React.Fragment>
 
